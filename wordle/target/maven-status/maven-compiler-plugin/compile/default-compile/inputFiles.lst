@@ -1,0 +1,6 @@
+/Users/tintumpic/Documents/Java/wordle/src/main/java/com/tintumpic/wordle/WordleApplication.java
+/Users/tintumpic/Documents/Java/wordle/src/main/java/com/tintumpic/wordle/controller/WordleController.java
+/Users/tintumpic/Documents/Java/wordle/src/main/java/com/tintumpic/wordle/model/GuessRequest.java
+/Users/tintumpic/Documents/Java/wordle/src/main/java/com/tintumpic/wordle/model/GuessResponse.java
+/Users/tintumpic/Documents/Java/wordle/src/main/java/com/tintumpic/wordle/service/WordleService.java
+/Users/tintumpic/Documents/Java/wordle/src/main/java/com/tintumpic/wordle/util/WordListLoader.java

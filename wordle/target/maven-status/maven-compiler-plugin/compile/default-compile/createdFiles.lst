@@ -1,0 +1,6 @@
+com/tintumpic/wordle/util/WordListLoader.class
+com/tintumpic/wordle/service/WordleService.class
+com/tintumpic/wordle/WordleApplication.class
+com/tintumpic/wordle/model/GuessRequest.class
+com/tintumpic/wordle/controller/WordleController.class
+com/tintumpic/wordle/model/GuessResponse.class

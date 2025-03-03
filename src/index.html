@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Wordle - Clone</title>
+    <link rel="stylesheet" href="./input.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wordle - Clone</h1>
+
+      <div class="wordle-board" id="wordleBoard">
+        <!-- 6 rows x 5 boxes = 30 letter boxes (filled dynamically by JS) -->
+      </div>
+
+      <div class="input-area">
+        <input
+          type="text"
+          id="guessInput"
+          maxlength="5"
+          placeholder="Type your word"
+        />
+        <button onclick="submitGuess()">Submit</button>
+      </div>
+
+      <p id="message"></p>
+      <br />
+      <div class="new-game hidden">
+        <button onclick="newGame()">New Game</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

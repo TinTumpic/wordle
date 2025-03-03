@@ -1,0 +1,104 @@
+/* Centering everything */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Outer container */
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+/* Title */
+h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+/* Grid - Real Wordle Style (6 guesses, 5 letters each) */
+.wordle-board {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+/* Single letter box (like real Wordle) */
+.letter-box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: white;
+  border: 2px solid #d3d6da;
+}
+
+/* Colors for feedback */
+.green {
+  background-color: #6aaa64;
+  color: white;
+}
+.yellow {
+  background-color: #c9b458;
+  color: white;
+}
+.gray {
+  background-color: #787c7e;
+  color: white;
+}
+
+/* Input field + button */
+.input-area {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+input {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 8px;
+  width: 120px;
+  text-align: center;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message */
+#message {
+  color: red;
+  font-size: 14px;
+  min-height: 18px; /* Reserve space even if empty */
+}
+
+.hidden {
+  display: none;
+}
